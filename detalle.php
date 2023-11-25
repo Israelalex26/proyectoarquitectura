@@ -17,17 +17,17 @@
         <a class="navbar-brand" href="#">
             <img src="img/logo.svg" alt="Bootstrap" width="30" height="24">
         </a>
-          <a class="navbar-brand" href="index.html">Molis</a>
+          <a class="navbar-brand" href="index.php">Molis</a>
         
  
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="clientes.html">Clientes</a>
+                <a class="nav-link active" aria-current="page" href="clientes.php">Clientes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="categorias.html">Categoría</a>
+                <a class="nav-link" href="categorias.php">Categoría</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -35,10 +35,10 @@
                 </a>  
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Facturas</a></li>
-                  <li><a class="dropdown-item" href="modopago.html">Modo pago</a></li>
-                  <li><a class="dropdown-item" href="detalle.html">Detalle</a></li>
+                  <li><a class="dropdown-item" href="modopago.php">Modo pago</a></li>
+                  <li><a class="dropdown-item" href="detalle.php">Detalle</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="pago.html">Pago</a></li>
+                  <li><a class="dropdown-item" href="pago.php">Pago</a></li>
                 </ul>
               </li>
 
@@ -53,7 +53,7 @@
         </div>
       </nav>
 
-      <a type="submit" href="agregarDetalle.html"  style="margin-top: 20px; margin-left: 20px;" class="btn btn-primary">Agregar detalle</a>
+      <a type="submit" href="agregarDetalle.php"  style="margin-top: 20px; margin-left: 20px;" class="btn btn-primary">Agregar detalle</a>
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

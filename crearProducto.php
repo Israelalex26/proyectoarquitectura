@@ -23,19 +23,28 @@
         <div class="row justify-content-center">
             <div class="col-md-6">
                 <div class="card">
-                    <div class="card-header text-center"><h4>Crear categoria</h4></div>
+                    <div class="card-header text-center"><h4>Crear producto</h4></div>
                     <div class="container">
-                    <form method="post" action="crearCliente.html">
+                    <form method="post" action="crearCliente.php">
                             <div class="form-group">
                                 <label for="nombre">Nombre:</label>
                                 <input type="text" class="form-control" name="nombre" required>
                             </div>
                             <div class="form-group">
-                                <label for="descripcion">Descripción:</label>
-                                <input type="text" class="form-control" name="descripcion" required>
+                                <label for="precio">Precio:</label>
+                                <input type="number" class="form-control" name="precio" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="stock">Stock:</label>
+                                <input type="number" class="form-control" name="stock" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="stock">ID Categoria:</label>
+                                <input type="number" class="form-control" name="id_categoria" required>
                             </div>
                             
-                            <button type="submit" style="margin-top: 20px; margin-bottom: 10px;" class="btn btn-primary">Crear cliente</button>
+                            <button type="submit" style="margin-top: 20px; margin-bottom: 10px;" class="btn btn-primary">Crear producto</button>
 
                         </form>
                     </div>

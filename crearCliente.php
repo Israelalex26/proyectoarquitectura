@@ -25,7 +25,7 @@
                 <div class="card">
                     <div class="card-header text-center"><h4>Crear cliente</h4></div>
                     <div class="container">
-                    <form method="post" action="crearCliente.html">
+                    <form method="post" action="crearCliente.php">
                             <div class="form-group">
                                 <label for="nombre">Nombre:</label>
                                 <input type="text" class="form-control" name="nombre" required>

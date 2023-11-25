@@ -23,30 +23,30 @@
         <div class="row justify-content-center">
             <div class="col-md-6">
                 <div class="card">
-                    <div class="card-header text-center"><h4>Crear cliente</h4></div>
+                    <div class="card-header text-center"><h4>Crear Pago</h4></div>
                     <div class="container">
-                    <form method="post" action="crearCliente.html">
+                    <form method="post" action="crearCliente.php">
                             <div class="form-group">
-                                <label for="nombre">Nombre:</label>
-                                <input type="text" class="form-control" name="nombre" required>
-                            </div>
-                            
-                            <div class="form-group">
-                                <label for="telefono">Numero tarjeta de crédito:</label>
-                                <input type="number" class="form-control" name="tarjeta_credito" required>
+                                <label for="num_pago">Numero de pago:</label>
+                                <input type="number" class="form-control" name="num_pago" required>
                             </div>
 
                             <div class="form-group">
-                                <label for="ano">Año:</label>
-                                <input type="number" class="form-control" name="ano" required>
+                                <label for="id_cliente">ID cliente:</label>
+                                <input type="number" class="form-control" name="id_cliente" required>
                             </div>
 
                             <div class="form-group">
-                                <label for="cvv">CVV:</label>
-                                <input type="number" class="form-control" name="cvv" required>
+                                <label for="fecha">Fecha:</label>
+                                <input type="date" class="form-control" name="fecha" required>
                             </div>
-                            
-                            <button type="submit" style="margin-top: 20px; margin-bottom: 10px;" class="btn btn-primary">Agregar tarjeta de credito</button>
+
+                            <div class="form-group">
+                                <label for="id_modo_pago">ID modo de pago:</label>
+                                <input type="number" class="form-control" name="id_modo_pago" required>
+                            </div>
+
+                            <button type="submit" style="margin-top: 20px; margin-bottom: 10px;" class="btn btn-primary">agregar pago</button>
 
                         </form>
                     </div>

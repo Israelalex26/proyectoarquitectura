@@ -25,7 +25,7 @@
                 <div class="card">
                     <div class="card-header text-center"><h4>Crear Detalle</h4></div>
                     <div class="container">
-                    <form method="post" action="crearCliente.html">
+                    <form method="post" action="crearCliente.php">
                             <div class="form-group">
                                 <label for="nombre">Numero detalle:</label>
                                 <input type="number" class="form-control" name="num_detalle" required>
