@@ -54,6 +54,41 @@
       </nav>
 
       <a href="agregarmodopago.php" style="margin: 20px;" type="submit" class="btn btn-outline-dark">Agregar modo de pago</a>
+      <div class="container mt-3">
+        <table class="table">
+        <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Eliminar</th>
+                </tr>
+                </thead>
+            <tbody>
+
+            <?php
+                // Mostrar los datos obtenidos de la tabla "empleado"
+                if ($result->num_rows > 0) {
+                    while ($row = $result->fetch_assoc()) {
+                        echo "<tr data-bs-toggle='collapse' data-bs-target='#collapse_" . $row["id_modo_pago"] . "' aria-expanded='false'>";
+                        echo "<td>" . $row["id_modo_pago"] . "</td>";
+                        echo "<td>" . $row["nombre"] . "</td>";
+                        echo "<td>"; // Inicia la celda de acciones
+                        echo "</td>"; // Cierra la celda de acciones
+                        echo "</tr>";
+                    }
+                } else {
+                    echo "<tr><td colspan='4'>No se encontraron resultados.</td></tr>";
+                }
+                ?>
+            </tbody>
+        </table>
+    </div>
+
+
+    <?php
+    // Cerrar la conexión
+    $conn->close();
+    ?>
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
